@@ -1,6 +1,8 @@
 const Video = ({source})=>{
     return(
-        <video src={source}></video>
+        <video controls className="rounded-lg max-h-[500px]">
+            <source src={source} type="video/mp4"/>
+        </video>
     )
 }
 
