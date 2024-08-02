@@ -6,12 +6,12 @@ const Contact = ()=>{
                 <form action="" className="flex flex-col gap-4">
                     <input type="text"  placeholder="Nombre" className="p-3 rounded-md border border-[#40020E] placeholder:text-[#40020E] placeholder:font-semibold bg-[#F8F7F7]"/>
                     <input type="email"  placeholder="Email" className="p-3 rounded-md border border-[#40020E] placeholder:text-[#40020E] placeholder:font-semibold bg-[#F8F7F7]"/>
-                    <textarea name="Mensaje" id="mensaje" placeholder="Mensaje" className="resize-none p-3 rounded-md h-48 border border-[#40020E] placeholder:text-[#40020E] placeholder:font-semibold bg-[#F8F7F7]"></textarea>
+                    <textarea name="Mensaje" id="mensaje" placeholder="Mensaje" className="resize-nonenpm run de p-3 rounded-md h-48 border border-[#40020E] placeholder:text-[#40020E] placeholder:font-semibold bg-[#F8F7F7]"></textarea>
                     <button className="font-bold text-[#F8F7F7] bg-[#F81842] rounded-md p-4">Enviar Correo</button>
                 </form>
             </div>
             <div className="md:max-w-[unset] md:w-1/2 lg:w-2/3 lg:self-end">
-                <img src="./src/assets/padre-hijo.png" alt="Padre e Hijo" className="h-full" />
+                <img src="./padre-hijo.png" alt="Padre e Hijo" className="h-full" />
             </div>
         </section>
     )
