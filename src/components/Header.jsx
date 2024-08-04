@@ -18,7 +18,7 @@ const Header = () => {
         src="./logo.png"
         alt="Seguros Con Ale Logo"
       /></a>
-      <FaBarsStaggered className="w-1/3 text-4xl m-4 z-10 text-[#F81842] md:hidden" onClick={handleClick} />
+      <FaBarsStaggered className="w-1/3 text-4xl m-4 z-10 text-[#F81842] md:hidden cursor-pointer" onClick={handleClick} />
       <div
         className={`bg-[#F8F7F7] h-screen absolute flex w-full flex-col justify-center items-center transition-all duration-1000 ease-in-out text-[#F81842] ${
           show ? "top-0" : "-top-[100vh]"
